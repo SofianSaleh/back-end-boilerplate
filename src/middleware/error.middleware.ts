@@ -3,9 +3,9 @@ import { HttpError } from '../error/httpError.error';
 
 export const errorMiddleware = (
   err: any,
-  req: Request,
+  _req: Request,
   res: Response,
-  next: NextFunction
+  _next: NextFunction
 ): void => {
   if (err instanceof HttpError) {
     const httpErr: HttpError = <HttpError>err;
