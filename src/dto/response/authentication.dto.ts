@@ -4,4 +4,4 @@ export class AuthenticationDTO {
   token: string;
   refreshToken: string;
   user: UserDTO;
-}
+// }
