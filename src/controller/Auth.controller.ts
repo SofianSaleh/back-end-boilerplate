@@ -27,6 +27,7 @@ export class AuthController extends BaseController {
       this.generateRefreshToken
     );
     this.addAsyncPoint('POST', '/api/v1/auth/login', this.login);
+    this.addAsyncPoint('POST', '/api/v1/auth/login', this.login);
   }
   // ! FUNCTIONS MUST BE AN ARROW FUNCTION BECAUSE OF THE "THIS" PROBLEM
   public generateRefreshToken = async (req: Request, res: Response) => {
