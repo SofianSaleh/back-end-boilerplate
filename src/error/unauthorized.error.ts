@@ -1,5 +1,5 @@
 import { HttpError } from './httpError.error';
 
 export class Unauthorized extends HttpError {
-  public statusCode = 401;
+  // public statusCode = 401;
 }
