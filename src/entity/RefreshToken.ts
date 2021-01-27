@@ -2,7 +2,7 @@ import {
   Entity,
   PrimaryGeneratedColumn,
   Column,
-  ManyToOne,
+  // ManyToOne,
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
