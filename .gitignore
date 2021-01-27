@@ -6,3 +6,4 @@ tmp/
 temp/
 test.http
 .env
+yarn.lock
