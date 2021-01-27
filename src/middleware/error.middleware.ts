@@ -14,7 +14,7 @@ export const errorMiddleware = (
       statusCode: httpErr.statusCode,
       message: httpErr.message,
     });
-    return;
+    // return;
   }
 
   res.status(500).json({
