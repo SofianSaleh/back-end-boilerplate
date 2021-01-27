@@ -1,4 +1,4 @@
 export class RefreshTokenDTO {
-  // token: string;
+  token: string;
   refreshToken: string;
 }
