@@ -12,7 +12,7 @@ export type HttpMethods = 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
 export abstract class BaseController {
   private app: Express;
 
-  constructor() {}
+  // constructor() {}
 
   public initializeController(app: Express) {
     this.app = app;
