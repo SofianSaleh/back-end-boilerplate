@@ -18,6 +18,9 @@ export class User {
   @Column()
   age: number;
 
-  @OneToMany((type) => RefreshToken, (refreshToken) => refreshToken.user)
+  @OneToMany(
+    (_type: any) => RefreshToken,
+    (refreshToken: any) => refreshToken.user
+  )
   refreshTokens: RefreshToken;
 }
