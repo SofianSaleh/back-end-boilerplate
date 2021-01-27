@@ -2,7 +2,7 @@ import {
   Entity,
   PrimaryGeneratedColumn,
   Column,
-  // ManyToOne,
+  ManyToOne,
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
@@ -13,7 +13,7 @@ export class RefreshToken {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @ManyToOne((type) => User, (user) => user.refreshTokens)
+  @ManyToOne((_type: any) => User, (user) => user.refreshTokens)
   user: User;
 
   @Column('text')
