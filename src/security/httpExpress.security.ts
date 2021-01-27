@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from 'express';
+// import { NextFunction, Request, Response } from 'express';
 import { Database } from '../database';
 import { UserDTO } from '../dto/response/user.dto';
 import { User } from '../entity/User';
