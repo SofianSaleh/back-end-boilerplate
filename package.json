@@ -6,7 +6,6 @@
    "author": "Sofian Saleh",
    "markdown": "standard",
    "homepage": "https://github.com/SofianSaleh/back-end-boilerplate.git",
-   "git": "https://github.com/SofianSaleh/back-end-boilerplate.git",
    "devDependencies": {
       "@types/bcryptjs": "^2.4.2",
       "@types/dotenv": "^8.2.0",
