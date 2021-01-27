@@ -21,6 +21,6 @@ export class Database {
    * @param target String The table that you want to use
    */
   public static getRepository<Entity>(target: ObjectType<Entity>) {
-    return this.connection.getRepository(target);
+    // return this.connection.getRepository(target);
   }
 }
