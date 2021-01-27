@@ -4,7 +4,7 @@ import { User } from '../entity/User';
 import { RefreshToken } from '../entity/RefreshToken';
 import * as moment from 'moment';
 import { Database } from '../database';
-import { NotFound } from '../error/notFound.error';
+// import { NotFound } from '../error/notFound.error';
 
 export class JWT {
   /**
