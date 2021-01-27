@@ -35,7 +35,7 @@ Request -> controller -> service -> controlle -> response
 #### To create a new end point
 1. create a new file in the Controllers
 2. export the class
-   ```typescript
+```typescript
    export class NameHere extends BaseController {
        // call the service for this controlle
         private readonly nameHereService: NameHereService;
