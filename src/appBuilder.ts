@@ -12,7 +12,7 @@ type MiddlewareHandlerType = (
   req: Request,
   res: Response,
   next: NextFunction
-// ) => void;
+) => void;
 
 export class AppBuilder {
   constructor(private readonly app: Express) {}
