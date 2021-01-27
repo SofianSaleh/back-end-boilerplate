@@ -1,6 +1,6 @@
 import * as jwt from 'jsonwebtoken';
 import { User } from '../entity/User';
-import { v4 as uuidV4 } from 'uuid';
+// import { v4 as uuidV4 } from 'uuid';
 import { RefreshToken } from '../entity/RefreshToken';
 import * as moment from 'moment';
 import { Database } from '../database';

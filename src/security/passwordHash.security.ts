@@ -1,6 +1,6 @@
 import * as bcrypt from 'bcryptjs';
 
-export class PasswordHash {
+// export class PasswordHash {
   /**
    * Returns a hashed password
    * @param plainPassword This is a plain password
