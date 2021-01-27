@@ -5,7 +5,7 @@ dotenv.config();
 import * as express from 'express';
 import { Database } from './database';
 import { AppBuilder } from './appBuilder';
-// import { AuthController } from './controller/Auth.controller';
+import { AuthController } from './controller/Auth.controller';
 import { UsersController } from './controller/User.controller';
 import { errorMiddleware } from './middleware/error.middleware';
 import { AuthController } from './controller/Auth.controller';
