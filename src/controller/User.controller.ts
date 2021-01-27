@@ -19,7 +19,7 @@ export class UsersController extends BaseController {
     this.addAsyncPoint('POST', '/api/v1/user/register', this.register);
 
     // ! add a JWT Middleware
-    this.addAsyncPoint('GET', '/api/v1/user/getOne', this.getUser);
+    // this.addAsyncPoint('GET', '/api/v1/user/getOne', this.getUser);
   }
 
   public register = async (req: Request, res: Response) => {
