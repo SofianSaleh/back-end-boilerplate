@@ -8,10 +8,10 @@ import { JWT } from '../security/jwt.security';
 import { PasswordHash } from '../security/passwordHash.security';
 import { EntityToDTO } from '../util/entityToDTO';
 
-export interface AuthService {
-  generateRefreshToken(body: RefreshTokenDTO);
-  login(email: string, password: string);
-  logout(token: string);
+// export interface AuthService {
+//   generateRefreshToken(body: RefreshTokenDTO);
+//   login(email: string, password: string);
+//   logout(token: string);
 }
 
 export class AuthServiceIMPL implements AuthService {

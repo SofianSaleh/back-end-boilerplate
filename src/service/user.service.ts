@@ -15,9 +15,9 @@ import { EntityToDTO } from '../util/entityToDTO';
  * 2- create your function down below
  */
 
-export interface UsersService {
-  register(body: RegisterDTO);
-  getUser(user: User);
+// export interface UsersService {
+//   register(body: RegisterDTO);
+//   getUser(user: User);
 }
 
 export class UsersServiceIMPL implements UsersService {
